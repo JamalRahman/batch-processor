@@ -1,6 +1,8 @@
-# batch-processor
+# Python Batch Processor
 
 A Python module for performing rate-limited operations in batches, additionally caching outputs.
+
+---
 
 Ideal for hitting APIs, this module accepts an arbitrary function and a list of inputs, and executes the function element-wise per input, caching the outputs to disk and rate limiting the function executions.
 
